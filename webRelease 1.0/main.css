@@ -1,0 +1,68 @@
+body{
+  background-image: url(background2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heading-text {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45;
+  transition: font-size 0.3s;
+  text-align: center;
+  
+
+}
+.heading-text:hover{
+  font-size: 50;
+}
+
+.heading-text-two {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45;
+  transition: font-size 0.3s;
+  margin-top:20px;
+  text-align: center;
+
+}
+.heading-text-two:hover{
+  font-size: 50;
+
+}
+
+.normal-text{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+
+}
+
+.social-button{
+  cursor: pointer;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  transition: background-color 0.15s;
+  transition: width 0.3s;
+  transition: border-radius 0.3s;
+  transition: height 0.3s;
+
+}
+
+.social-button:hover{
+  cursor: pointer;
+  width: 80px;
+  border-radius: 40px;
+  height: 80px;
+
+}
+
+.social-button:active{
+  background-color: rgb(95, 144, 236);
+}
+
+
+#div-button{
+  margin-top: 100px;
+  text-align: center;
+}
